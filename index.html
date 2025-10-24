@@ -6,6 +6,53 @@
     <title>Pesquisa Culturama</title>
 </head>
 <body>
+
+    <header>
+        <h1> Pesquisa Online </h1>
+    </header>
+
+    <section>
+
+        <form action="" method="get" >
+            
+            <!-- Dados Pessoias -->
+            <fieldset>
+                <legend>Dados Pessoias</legend>
+            <label for="UserName"> Nome </label>
+            <input type="text" name="UserName"  required>
+            <br>
+            <label  for="UserAge">Idade </label>
+            <input type="number" name="UserAge"  min="12" max="100" required >
+            <br>
+            <label for="birthdate" >Data de Nascimento</label>
+            <input type="date" name="birthdate"  >
+            <br>
+            <label for="UserEmail" >Email</label>
+            <input type="email" name="UserEmail" required>
+            <br>
+            <label for="UserPhoneNumber" >Telefone</label>
+            <input type="tel" name="UserPhoneNumber" pattern="[0-9] {11}" placeholder="DDD + Numero" >
+            <br>
+            <LAbel for="UserImage" > Upload de Foto</LAbel>
+            <input type="file" accept="image/*" name="UserImage">
+
+            </fieldset>
+                         
+            
+            
+            
+            <button type="submit" > Eviar </button>
+
+            
+             
+             
+        </form>
+
+    </section>
+
     
+
+
+
 </body>
 </html>
